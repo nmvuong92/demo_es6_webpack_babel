@@ -41,6 +41,7 @@ function sayhello(){
     console.log("Hello");
     alert("hello");
 }
+window.sayhello = sayhello;
 ```
 => webpack export file: ./build/main.bundle.js
 
@@ -56,7 +57,7 @@ function sayhello(){
 </head>
 <body>
     <button onclick="sayhello();">say hello</button>
-    <script src="./js/main.js"></script>
+    <script src="./build/main.bundle.js"></script>
 </body>
 </html>
 ```
