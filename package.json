@@ -1,0 +1,29 @@
+{
+  "name": "demo_es6_webpack_babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmvuong92/demo_es6_webpack_babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmvuong92/demo_es6_webpack_babel/issues"
+  },
+  "homepage": "https://github.com/nmvuong92/demo_es6_webpack_babel#readme"
+}
